@@ -7,7 +7,7 @@ import cuid from "cuid";
 import {useDropzone} from 'react-dropzone'
 import { RiUploadCloud2Fill } from 'react-icons/ri';
 import DispalyImage from './DisplayImage';
-import MenuBar from './menu';
+import MenuBar from './Menu';
 
 const Dashboard = () => {
     const [user, setUser] = useState('');
