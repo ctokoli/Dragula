@@ -27,6 +27,8 @@ const Signup = () => {
             console.log(data)
             alert("Account Creatd Successfully")
             navHistory('/signin');
+        }).catch((error) => {
+            alert(error.message)
         })
     }
     return ( 
