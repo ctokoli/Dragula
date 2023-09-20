@@ -1,13 +1,12 @@
 body{
-  background: #a0e9ff;
-  background: -webkit-linear-gradient(0deg, #a0e9ff 0%, #a8f0ff 50%, #c6f5ff 100%);
-  background: linear-gradient(0deg, #a0e9ff 0%, #a8f0ff 50%, #c6f5ff 100%);
+  background: #9633FF;
+  background: -webkit-linear-gradient(0deg, #9633FF 0%, #9633FF 50%, #9633FF 100%);
+  background: linear-gradient(0deg, #9633FF 0%, #9633FF 50%, #9633FF 100%);
 }
 
 #root {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
   text-align: center;
 }
 
@@ -28,7 +27,7 @@ section.upload-container {
 
 svg.cloud {
   font-size: 5em;
-  color: #a0e9ff;
+  color: rgb(62 3 240 / 46%);
 }
 
 .head-section h1, p {
@@ -54,3 +53,139 @@ svg.cloud {
   transition: background-color 1s ease-in;
 }
 
+section.display-images {
+  border-radius: 10px;
+  background-color: #d8eef4;
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.grid{
+  padding: 10px;
+}
+.grid img {
+  width: 150px;
+}
+
+.signin {
+  background-color: white;
+  padding: 60px;
+  border-radius: 10px;
+  box-shadow: -2px 7px 20px 1px #3e03f0bf;;
+}
+
+input:focus {
+  box-shadow: 0px 3px 15px 0px #3e03f07d;
+}
+
+input {
+    
+    display: block;
+    width: 270px;
+    height: 40px;
+    margin-bottom: 26px;
+    border-radius: 50px;
+    border: 1px solid #c4c4c4;
+    outline: none;
+    font-size: 16px;
+    padding-left: 20px;
+    
+}
+
+.signin h3, h2 {
+  text-align: center;
+  padding-bottom: 15px;
+  margin-top: 0px;
+}
+
+button.login {
+  background: rgb(62, 3, 240);
+  background: linear-gradient(343deg, rgba(62, 3, 240, 1) 0%, rgba(150, 51, 255, 1) 100%);
+  color: #fff;
+  width: 166px;
+  border-radius: 50px;
+}
+
+a.link p {
+  padding-left: 0px;
+  text-align: center;
+  color: #646cff;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+}
+
+.sign-out {
+  display: flex;
+  align-items: center;
+}
+
+.sign-out button{
+ background-color: #646cff;
+ color: #fff;
+ margin-left: 20px;
+ margin-right: 20px;
+}
+
+.menu-section {
+  margin-top: 10px;
+  background-color: #fff;
+  margin-bottom: 50px;
+  border-radius: 10px;
+}
+
+.logo svg {
+  font-size: 2em;
+  margin-left: 20px;
+  color: #646cff;
+}
+
+.sign-out h4 {
+  color: grey;
+}
+
+@media screen and (max-width: 480px) {
+section.upload-container {
+    width: 380px;
+    height: 500px;
+    margin-left: 5px;
+  }
+
+    .head-section h1,
+    p {
+      padding-left: 20px;
+    }
+    .col {
+      border: 4px dashed #cccccc;
+      padding: 60px;
+    }
+
+    .sign-out button {
+      padding: 2px;
+      margin-left: 7px;
+      margin-right: 20px;
+      width: 66px;
+    }
+
+    .logo svg {
+      margin-left: 10px;
+    }
+
+    .sign-out h4 {
+      color: grey;
+      font-size: 14px;
+    }
+
+    section.display-images {
+      grid-template-columns: 1fr 1fr;
+      margin-bottom: 30px;
+    }
+
+}
