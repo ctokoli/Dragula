@@ -29,8 +29,6 @@ const Dashboard = () => {
 
     const [images, setImages] = useState([]);
     const onDrop = useCallback(acceptedFiles => {
-    // Do something with the files
-    console.log(acceptedFiles);
     acceptedFiles.map(file => {
       const reader = new FileReader();
       reader.onload = function(e) {
