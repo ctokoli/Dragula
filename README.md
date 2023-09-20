@@ -36,7 +36,7 @@
     <li><a href="https://reactrouter.com/">React Router</a></li>
   </ul>
   <ul>
-    <li><a href="https://tanstack.com/query/v3/">Firebase</a></li>
+    <li><a href="https://firebase.google.com/">Firebase</a></li>
   </ul>
   
 </details>
@@ -70,7 +70,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  https://github.com/ctokoli/Movie-Box.git
+  https://github.com/ctokoli/Dragula.git
 ```
 
 ### Install
