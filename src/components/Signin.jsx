@@ -13,6 +13,8 @@ const SignIn = () => {
         signInWithEmailAndPassword(database,email,password).then((data) => {
             console.log(data)
             navHistory('/dashboard');
+        }).catch((error) => {
+            alert(error.message)
         })
     }
     return ( 
