@@ -17,9 +17,9 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖 [MovieBox] <a name="about-project"></a>
+# 📖 [Dragula] <a name="about-project"></a>
 
-**[MovieBox]**  is a React Single Page Application that shows top 10 rated movies from The Movie DB (TMDB)  API. 
+**[Dragula]** is a React Single Page Application designed for file uploads, featuring both sign-in and sign-up functionality through Firebase Authentication. 
 
 
 
@@ -36,17 +36,19 @@
     <li><a href="https://reactrouter.com/">React Router</a></li>
   </ul>
   <ul>
-    <li><a href="https://tanstack.com/query/v3/">React Query</a></li>
+    <li><a href="https://tanstack.com/query/v3/">Firebase</a></li>
   </ul>
+  
 </details>
 
 
 
 ### Key Features <a name="key-features"></a>
 
-- **[Show Top 10 Rated Movies]**
-- **[Show Movie Details]**
-- **[Search for Movies]**
+- **[Sign Up Using Email]**
+- **[Login Using Email]**
+- **[Upload files]**
+- **[Sign Out]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -99,14 +101,6 @@ Install Vite [https://vitejs.dev/]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🔭 Future Features <a name="future-features"></a>
-
-- [ ] **[Add Decorators]**
-- [ ] **[Set Associations]**
-- [ ] **[Add testing]**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
@@ -124,7 +118,6 @@ If you like this project give a star
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 I would like to thank HGNx community and Mentors. 
-I would also like to thank Adriana Eka Prayudha for the UI Design.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
