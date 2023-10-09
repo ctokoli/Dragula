@@ -81,7 +81,7 @@ Install Vite [https://vitejs.dev/]
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Here is the link to the live experience](https://moviebox-a18k.onrender.com/).
+- [Here is the link to the live experience](https://dragula.onrender.com/).
 
 > |     | Mobile version                      | Desktop version                      |     |
 > | --- | ----------------------------------- | ------------------------------------ | --- |
